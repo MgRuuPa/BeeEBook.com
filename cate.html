@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"rel="stylesheet">
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"rel="stylesheet">
+    <!-- Font Awesome -->
+   <link
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet">
+    <style>
+        .footnav{
+            width: 100%;
+            height: 50px;
+            background: white;
+            display: none;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .footnav div{
+            margin-top: 2px;
+        }
+        .footnav div a{
+            text-decoration: none;
+            color: dimgray;
+        }
+        .footer div a:active{
+            color: gold;
+        }
+        @media screen and (max-width: 920px) {
+            .footnav{
+                display: flex;
+            }
+        }
+        h3{
+            width: 100%;
+            height: 50px;
+            background: white;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .categories{
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .categories div a{
+            text-decoration: none;
+            color: black;
+        }
+        .categories div{
+            width: 80%;
+            height: 50px;
+            background: white;
+            margin-top: 3%;
+            margin-left: 10%;
+            border-radius: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body style="background: whitesmoke;">
+    <h3 class="sticky-top">All Categories</h3>
+    <div class="categories">
+        <div class="shadow"><a href=""><i class="far fa-hourglass"></i> ရောင်းအားအကောင်းဆုံးစာအုပ်များ</a></div>
+        <div class="shadow"><a href=""><i class="fab fa-fort-awesome"></i> အောင်မြင်တိုးတက်ရေး</a></div>
+        <div class="shadow"><a href=""><i class="fas fa-masks-theater"></i> စိတ်ပညာနှင့်ဘဝပျော်ရွှင်မှု</a></div>
+        <div class="shadow"><a href=""><i class="fas fa-chart-line"></i> စီးပွားရေးနှင့်စီမံခန့်ခွဲမှု</a></div>
+        <div class="shadow"><a href=""><i class="fas fa-chart-pie"></i> ရောင်းချမှုနှင့်မားကတ်တင်း</a></div>
+        <div class="shadow"><a href=""><i class="fas fa-earth-asia"></i> အထွေထွေအသိပညာ</a></div>
+        <div class="shadow"><a href=""><i class="fas fa-briefcase-medical"></i> ကျန်းမာရေးနှင့်အစားအသောက်</a></div>
+        <div class="shadow"><a href=""><i class="fas fa-mosque"></i> သမိုင်းနှင့်နိုင်ငံရေး</a></div>
+        <div class="shadow"><a href=""><i class="fab fa-gratipay"></i> မိသားစုနှင့်အချစ်ရေး</a></div>
+        <div class="shadow"><a href=""><i class="fas fa-graduation-cap"></i> ပညာရေး</a></div>
+        <div class="shadow"><a href=""><i class="fas fa-gift"></i> လက်ဆောင်စာအုပ်များ</a></div>
+    </div>
+
+    <div class="footnav sticky-bottom">
+        <div><a href="book.html" ><i class="fa fa-university"></i><p>Home</p></a></div>
+        <div><a href="cate.html" class="active text-warning"><i class="fa fa-th-large"></i><p>Categories</p></a></div>
+        <div><a href="" onclick="lib()" ><i class="fas fa-book"></i><p>Library</p></a></div>
+        <div><a href="" onclick="profile()" ><i class="fa fa-user-circle-o"></i><p>Profile</p></a></div>
+      </div>
+</body>
+</html>
